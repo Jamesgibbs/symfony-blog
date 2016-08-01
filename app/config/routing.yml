@@ -1,0 +1,8 @@
+james_blog:
+    resource: "@jamesBlogBundle/Resources/config/routing.xml"
+    prefix:   /
+
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

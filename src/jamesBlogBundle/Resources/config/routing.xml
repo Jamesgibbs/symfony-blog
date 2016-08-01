@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<routes xmlns="http://symfony.com/schema/routing"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/routing http://symfony.com/schema/routing/routing-1.0.xsd">
+
+    <route id="james_blog_homepage" path="/blog">
+        <default key="_controller">jamesBlogBundle:Default:index</default>
+    </route>
+
+   <route id="james_blog_page2" path="/blog/page2">
+        <default key="_controller">jamesBlogBundle:Default:page2</default>
+    </route>
+
+
+</routes>
