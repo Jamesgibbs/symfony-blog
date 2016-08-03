@@ -1,0 +1,17 @@
+{
+  "name": "jamesblog",
+  "homepage": "https://github.com/Jamesgibbs/symfony-blog",
+  "authors": [
+    "james gibbs <jamesgibbbs@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

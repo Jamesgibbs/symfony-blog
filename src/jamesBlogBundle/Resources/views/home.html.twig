@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+    </head>
+    <body>
+        {% block body %}
+
+        <div id="sidebar">
+            {% block sidebar %}
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                </ul>
+            {% endblock %}
+        </div>
+        <div id="content">
+                {% block content %}
+       
+                 <h1>Hello World!</h1>
+                 <a href="{{ path('james_blog_form') }}">Home</a>
+
+                {% endblock %}
+        </div>  
+        <div id="footer">
+               {% block footer %}{% endblock %}
+        </div>
+         {% block javascripts %}{% endblock %}
+
+         {% endblock %}
+    </body>
+</html>

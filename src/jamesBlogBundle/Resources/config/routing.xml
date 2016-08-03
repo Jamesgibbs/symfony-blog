@@ -12,5 +12,8 @@
         <default key="_controller">jamesBlogBundle:Default:page2</default>
     </route>
 
+    <route id="james_blog_form" path="/blog/form">
+        <default key="_controller">jamesBlogBundle:Default:new</default>
+    </route>
 
 </routes>

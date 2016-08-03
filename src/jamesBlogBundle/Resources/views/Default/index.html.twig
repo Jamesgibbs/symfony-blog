@@ -1,16 +1,13 @@
+{% extends 'jamesBlogBundle::base.html.twig' %}
 
+{% block title %}page 1{% endblock %}
 
-<html>
+{% block body %}
 
-<head>
-
-</head>
-
-<body>
-
-<h1>Hello World!</h1>
-</body>
-
-
-
-</html>
+{% block links %}
+<a href="{{ path('james_blog_page2') }}">
+	Read this blog post.</a>
+        <h2>heloo</h2>
+        <p>james</p>
+ {% endblock %}
+{% endblock %}
